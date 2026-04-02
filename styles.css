@@ -290,6 +290,35 @@ button {
   gap: var(--gap);
 }
 
+#work {
+  background: #1d2025;
+  color: #ffffff;
+  width: 100%;
+}
+
+#work.gallery-section {
+  width: 100%;
+  padding: 0;
+}
+
+#work .work-section-wrap {
+  max-width: var(--max-width);
+  width: min(calc(100% - 48px), var(--max-width));
+  margin: 0 auto;
+  padding: 40px 0;
+  color: #ffffff;
+}
+
+#work .section-heading .eyebrow,
+#work .section-heading h2 {
+  color: #ffffff;
+}
+
+#work .work-grid {
+  background-color: transparent;
+}
+
+
 .work-card {
   position: relative;
   padding: 0;
