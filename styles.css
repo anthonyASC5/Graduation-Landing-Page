@@ -139,6 +139,25 @@ button {
 
 .nav-cta {
   padding: 0.75rem 1rem;
+  background: #d4af37;
+  color: #111111;
+}
+
+.nav-cta:hover,
+.nav-cta:focus-visible {
+  background: #b1912d;
+}
+
+.micro-proof {
+  color: #cc1f1f;
+  font-weight: 700;
+}
+
+.hero-copy-noise {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #222222;
+  max-width: 26ch;
 }
 
 .hero {

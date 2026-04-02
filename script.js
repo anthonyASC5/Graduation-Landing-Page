@@ -1,5 +1,5 @@
 const BOOKING_URL =
-  document.body.dataset.bookingUrl || "https://shotbyall.pixieset.com/booking/";
+  document.body.dataset.bookingUrl || "https://shotbylall.pixieset.com/booking/graduationshotbyall";
 
 document.querySelectorAll("[data-booking-link]").forEach((link) => {
   link.href = BOOKING_URL;
