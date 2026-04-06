@@ -1,88 +1,24 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="88" y1="72" x2="1128" y2="606" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#180404"/>
-      <stop offset="0.48" stop-color="#4E0A0A"/>
-      <stop offset="1" stop-color="#891919"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#101010"/>
+      <stop offset="1" stop-color="#181818"/>
     </linearGradient>
-    <linearGradient id="panel" x1="136" y1="112" x2="1044" y2="534" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFF4E3" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.08"/>
-    </linearGradient>
-    <linearGradient id="gown" x1="741" y1="270" x2="741" y2="554" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#D61F2C"/>
-      <stop offset="1" stop-color="#8D111A"/>
-    </linearGradient>
-    <filter id="shadow" x="90" y="66" width="1020" height="510" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-      <feOffset dy="18"/>
-      <feGaussianBlur stdDeviation="23"/>
-      <feComposite in2="hardAlpha" operator="out"/>
-      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.28 0"/>
-      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
-      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
-    </filter>
+    <radialGradient id="shine" cx="0.35" cy="0.15" r="0.55" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.00"/>
+    </radialGradient>
   </defs>
 
-  <rect width="1200" height="630" rx="28" fill="url(#bg)"/>
-  <circle cx="1090" cy="100" r="116" fill="#F0C14B" fill-opacity="0.16"/>
-  <circle cx="140" cy="560" r="130" fill="#FFFFFF" fill-opacity="0.06"/>
-  <circle cx="1048" cy="488" r="150" fill="#000000" fill-opacity="0.12"/>
+  <rect width="1200" height="630" rx="28" fill="url(#background)"/>
+  <rect x="0" y="0" width="1200" height="630" rx="28" fill="url(#shine)" opacity="0.7"/>
+  <rect x="90" y="120" width="1020" height="360" rx="32" fill="#161616" opacity="0.7"/>
+  <rect x="90" y="120" width="1020" height="360" rx="32" stroke="#373737" stroke-opacity="0.5" stroke-width="1"/>
 
-  <g filter="url(#shadow)">
-    <rect x="136" y="110" width="928" height="420" rx="34" fill="url(#panel)" stroke="rgba(255,255,255,0.16)"/>
-  </g>
+  <rect x="140" y="205" width="220" height="4" rx="2" fill="#D4AF37" opacity="0.92"/>
+  <rect x="390" y="205" width="400" height="4" rx="2" fill="#8E7B3E" opacity="0.35"/>
 
-  <text x="208" y="214" fill="#F6E5C7" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="4">SHOTBYALL</text>
-  <text x="208" y="312" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="800">GRAD SZN</text>
-  <text x="208" y="382" fill="#F7D58A" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="800">INFO</text>
-  <text x="208" y="442" fill="#F3EDE7" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="500">Packages, pricing, booking, and graduation photo info.</text>
-
-  <g transform="translate(690 92)">
-    <ellipse cx="138" cy="432" rx="116" ry="28" fill="#2A0303" fill-opacity="0.32"/>
-
-    <path d="M56 248C73 210 114 184 162 184C210 184 251 210 268 248L294 462H30L56 248Z" fill="url(#gown)"/>
-    <path d="M76 254C94 235 124 224 162 224C200 224 230 235 248 254L226 462H98L76 254Z" fill="#BA1926"/>
-
-    <path d="M108 224L136 462H188L216 224H108Z" fill="#FBF3E4"/>
-    <path d="M120 226H150L144 462H122L120 226Z" fill="#D61F2C"/>
-    <path d="M174 226H204L202 462H180L174 226Z" fill="#D61F2C"/>
-    <circle cx="162" cy="300" r="10" fill="#F5D9A5"/>
-
-    <circle cx="162" cy="142" r="96" fill="#8A6039"/>
-    <circle cx="88" cy="88" r="34" fill="#8A6039"/>
-    <circle cx="236" cy="88" r="34" fill="#8A6039"/>
-    <circle cx="88" cy="88" r="17" fill="#C89A6A"/>
-    <circle cx="236" cy="88" r="17" fill="#C89A6A"/>
-    <ellipse cx="162" cy="162" rx="70" ry="60" fill="#A97749"/>
-    <ellipse cx="162" cy="184" rx="42" ry="34" fill="#DAB07D"/>
-    <circle cx="130" cy="146" r="10" fill="#1D120B"/>
-    <circle cx="194" cy="146" r="10" fill="#1D120B"/>
-    <circle cx="126" cy="143" r="3" fill="#FFFFFF"/>
-    <circle cx="190" cy="143" r="3" fill="#FFFFFF"/>
-    <path d="M160 162L147 178H177L160 162Z" fill="#2A1A12"/>
-    <path d="M144 194C151 206 173 206 180 194" stroke="#2A1A12" stroke-width="6" stroke-linecap="round"/>
-
-    <path d="M90 30L212 30L244 52L122 52L90 30Z" fill="#1D1A1A"/>
-    <path d="M112 12H234L276 42L154 42L112 12Z" fill="#141212"/>
-    <path d="M244 52V108" stroke="#E7C160" stroke-width="6" stroke-linecap="round"/>
-    <circle cx="244" cy="116" r="10" fill="#E7C160"/>
-
-    <path d="M290 286C322 298 344 316 354 340" stroke="#8A6039" stroke-width="18" stroke-linecap="round"/>
-    <path d="M34 286C2 298 -20 316 -30 340" stroke="#8A6039" stroke-width="18" stroke-linecap="round"/>
-    <circle cx="356" cy="344" r="18" fill="#8A6039"/>
-    <circle cx="-32" cy="344" r="18" fill="#8A6039"/>
-
-    <rect x="270" y="334" width="78" height="50" rx="8" fill="#F6E9C9"/>
-    <rect x="270" y="344" width="78" height="8" fill="#D9C39B"/>
-    <rect x="336" y="334" width="10" height="50" rx="4" fill="#B11D28"/>
-    <rect x="292" y="353" width="34" height="5" rx="2.5" fill="#B79962"/>
-  </g>
-
-  <circle cx="995" cy="182" r="10" fill="#FFFFFF" fill-opacity="0.82"/>
-  <circle cx="1034" cy="216" r="8" fill="#F7D58A" fill-opacity="0.92"/>
-  <circle cx="947" cy="236" r="8" fill="#FFFFFF" fill-opacity="0.72"/>
-  <circle cx="1016" cy="270" r="6" fill="#F7D58A" fill-opacity="0.88"/>
-  <circle cx="948" cy="290" r="6" fill="#FFFFFF" fill-opacity="0.62"/>
+  <text x="140" y="275" fill="#FFFFFF" font-family="Inter, Arial, Helvetica, sans-serif" font-size="48" font-weight="700" letter-spacing="1.6">SHOTBYALL</text>
+  <text x="140" y="380" fill="#D4AF37" font-family="Inter, Arial, Helvetica, sans-serif" font-size="100" font-weight="800" letter-spacing="0.5">GRAD SZN</text>
+  <text x="140" y="485" fill="#D4AF37" font-family="Inter, Arial, Helvetica, sans-serif" font-size="100" font-weight="800" letter-spacing="0.5">INFO</text>
 </svg>
